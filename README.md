@@ -116,4 +116,14 @@ Retreives a personalized [video](https://www.vidu.io/video) / [meme](https://www
 }
 ```
 
+## Webhooks
+
+Webhooks are coming soon and will allow you to subscribe to Vidu events such as:
+
+ * `job.created`
+ * `job.completed`
+ * `video.opened`
+ * `video.viewed`
+ * `video.cta_clicked`
+
 
