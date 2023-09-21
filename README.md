@@ -115,7 +115,7 @@ Retreives a personalized [video](https://www.vidu.io/video) / [meme](https://www
         "extension": ".mp4",
         "file_size": 1155204,
         "type": "image",
-        "url": "https://files.vidu.io/2023/9/21/uwgqrasxh/bzMbzRxFUoSd/poster.mp4"
+        "url": "https://files.vidu.io/2023/9/21/uwgqrasxh/bzMbzRxFUoSd/video.mp4"
       }
     }
   },
