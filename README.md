@@ -25,8 +25,18 @@ Returns information about the `User` and `Workspace` associated with the API Key
 ```javascript
 // RESPONSE
 {
-  "user_id": 98765,
-  "workspace_id": 1234567
+  "type": "me",
+  "user": {
+    "id": 1,
+    "type": "user",
+    "email": "gavin@vidu.io"
+  },
+  "workspace": {
+    "id": 2,
+    "name": "Gavin's Workspace",
+    "type": "workspace",
+    "identifier": "uwgqrasxh"
+  }
 }
 ```
 
