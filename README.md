@@ -2,9 +2,9 @@
 
 ### Introduction
 
-[Vidu](https://www.vidu.io/) is a tool for sales teams, allowing them to quickly generate personalized [video](https://www.vidu.io/video) / [meme](https://www.vidu.io/memes) / [personal gif](https://www.vidu.io/personal-gifs) for inclusion in their sales outreach.
+[Vidu](https://www.vidu.io/) is a tool for sales teams, allowing them to quickly use personalized [video](https://www.vidu.io/video) / [meme](https://www.vidu.io/memes) / [personal gif](https://www.vidu.io/personal-gifs) in their sales outreach.
 
-This REST API enabled automated generation and use of personalized assets.
+This REST API enables automated generation and use of personalized assets.
 
 ### Authentication
 
