@@ -54,7 +54,7 @@ Enqueues a personalized [video](https://www.vidu.io/video) / [meme](https://www.
   },
   "outputs": null,
   "view_key": "bzMbzRxFUoSd",
-  "view_url": "https://watch.vidu.io/watch/bzMbzRxFUoSd",
+  "view_url": "https://watch.vidu.io/watch/bzMbzRxFUoSd", // the video can be watched here. append `?analytics=false` to disable open/view analytics
   "project": {
     "id": 26896,
     "name": "REST API Sample Video Recording",
@@ -104,7 +104,7 @@ Retreives a personalized [video](https://www.vidu.io/video) / [meme](https://www
     }
   },
   "view_key": "bzMbzRxFUoSd",
-  "view_url": "https://watch.vidu.io/watch/bzMbzRxFUoSd", 
+  "view_url": "https://watch.vidu.io/watch/bzMbzRxFUoSd", // the video can be watched here. append `?analytics=false` to disable open/view analytics
   "project": {
     "id": 26896,
     "name": "REST API Sample Video Recording",
