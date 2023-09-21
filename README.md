@@ -87,19 +87,19 @@ Retreives a personalized [video](https://www.vidu.io/video) / [meme](https://www
         "extension": ".mp4",
         "file_size": 202186,
         "type": "image",
-        "url": "https://files.vidu.io/2023/9/21/cvslemxci/boDeEVGYyWdQ/poster.mp4"
+        "url": "https://files.vidu.io/2023/9/21/uwgqrasxh/bzMbzRxFUoSd/poster.mp4"
       },
       "thumbnail": {
         "extension": ".gif",
         "file_size": 220768,
         "type": "image",
-        "url": "https://files.vidu.io/2023/9/21/cvslemxci/boDeEVGYyWdQ/thumbnail.gif"
+        "url": "https://files.vidu.io/2023/9/21/uwgqrasxh/bzMbzRxFUoSd/thumbnail.gif"
       },
       "video": {
         "extension": ".mp4",
         "file_size": 1155204,
         "type": "image",
-        "url": "https://files.vidu.io/2023/9/21/cvslemxci/boDeEVGYyWdQ/video.mp4"
+        "url": "https://files.vidu.io/2023/9/21/uwgqrasxh/bzMbzRxFUoSd/poster.mp4"
       }
     }
   },
