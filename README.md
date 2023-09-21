@@ -2,13 +2,11 @@
 
 ### Introduction
 
-[Vidu](https://www.vidu.io/) is a tool for sales teams, allowing them to quickly use personalized [video](https://www.vidu.io/video) / [meme](https://www.vidu.io/memes) / [personal gif](https://www.vidu.io/personal-gifs) in their sales outreach.
-
-This REST API enables automated generation and use of personalized assets.
+[Vidu](https://www.vidu.io/) allows sales teams to use personalized [video](https://www.vidu.io/video) / [meme](https://www.vidu.io/memes) / [personal gif](https://www.vidu.io/personal-gifs) in their sales outreach.
 
 ### Authentication
 
-The [Vidu](https://www.vidu.io/) REST API uses API Keys to authenticate requests. If you're enrolled in the API beta, you can access your API keys at `Settings > Developers > API Keys`.
+This API uses API Keys to authenticate requests. If you're enrolled in the API beta, you can access your API keys at `Settings > Developers > API Keys`.
 
 Include an `Authorization` header in your requests as follows:
 
