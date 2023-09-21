@@ -116,6 +116,21 @@ Retreives a personalized [video](https://www.vidu.io/video) / [meme](https://www
 }
 ```
 
+The `job.view_key` allows you to dynamically construct URLs to relevant personalized assets generated in a job.
+
+For example, the following dynamic HTML allows you to embed a personalized video in an email with a `view_key` value (assuming that it's stored in a custom variable called `vidu_introduction_video_view_key` in your outreach tool / CRM in this case):
+
+```html
+<a href="https://watch.vidu.io/watch/{{vidu_introduction_video_view_key}}" rel="noopener noreferrer" target="_blank">
+  <div style="height: 216px; max-width: 400px;">
+    <img src="https://watch.vidu.io/i/{{vidu_introduction_video_view_key}}.thumbnail.gif" alt="Watch the video I made for you" style="box-sizing: border-box; display: block; height: 216px; width: auto; border: 1px solid #eee;" />
+  </div>
+</a>
+<div>
+  <a href="https://watch.vidu.io/watch/{{vidu_introduction_video_view_key}}" rel="noopener noreferrer" target="_blank">Watch the video I made for you</a>
+</div>
+```
+
 ## Webhooks
 
 Webhooks are coming soon and will allow you to subscribe to Vidu events such as:
