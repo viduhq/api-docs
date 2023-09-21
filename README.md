@@ -2,7 +2,7 @@
 
 ### Introduction
 
-[Vidu](https://www.vidu.io/) allows sales teams to use personalized [video](https://www.vidu.io/video) / [meme](https://www.vidu.io/memes) / [personal gif](https://www.vidu.io/personal-gifs) in their sales outreach.
+[Vidu](https://www.vidu.io/) allows sales teams to use personalized [videos](https://www.vidu.io/video) / [meme](https://www.vidu.io/memes) / [personal gif](https://www.vidu.io/personal-gifs) in their sales outreach.
 
 ### Authentication
 
