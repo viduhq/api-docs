@@ -6,7 +6,7 @@
 
 ### Authentication
 
-This API uses API Keys to authenticate requests. If you're enrolled in the API beta, you can access your API keys at `Settings > Developers > API Keys`.
+This API uses API Keys to authenticate requests. If you're enrolled in the API beta, you can access your API keys at `Settings > API > API Keys`.
 
 Include an `Authorization` header in your requests as follows:
 
