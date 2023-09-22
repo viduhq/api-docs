@@ -130,6 +130,8 @@ Retreives a personalized [video](https://www.vidu.io/video) / [meme](https://www
 }
 ```
 
+##### Using `job.view_key` in an email
+
 The `job.view_key` allows you to dynamically construct URLs to relevant personalized assets generated in a job.
 
 For example, the following dynamic HTML allows you to embed a personalized video in an email with a `view_key` value (assuming that it's stored in a custom variable called `vidu_introduction_video_view_key` in your outreach tool / CRM in this case):
