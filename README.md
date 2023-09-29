@@ -137,14 +137,14 @@ The `job.view_key` allows you to dynamically construct URLs to relevant personal
 For example, the following dynamic HTML allows you to embed a personalized video in an email with a `view_key` value (assuming that it's stored in a custom variable called `vidu_introduction_video_view_key` in your outreach tool / CRM in this case):
 
 ```html
-<a href="https://watch.vidu.io/watch/{{vidu_introduction_video_view_key}}" rel="noopener noreferrer" target="_blank">
-  <div style="height: 216px; max-width: 400px;">
-    <img src="https://watch.vidu.io/i/{{vidu_introduction_video_view_key}}.thumbnail.gif" alt="Watch the video I made for you" style="box-sizing: border-box; display: block; height: 216px; width: auto; border: 1px solid #eee;" />
-  </div>
-</a>
-<div>
+<p>
+  <a href="https://watch.vidu.io/watch/{{vidu_introduction_video_view_key}}" rel="noopener noreferrer" target="_blank">
+    <img src="https://watch.vidu.io/i/{{vidu_introduction_video_view_key}}.thumbnail.gif" alt="Watch the video I made for you" style="border: 1px solid #aaa;">
+  </a>
+  <br>
   <a href="https://watch.vidu.io/watch/{{vidu_introduction_video_view_key}}" rel="noopener noreferrer" target="_blank">Watch the video I made for you</a>
-</div>
+</p>
+<br>
 ```
 
 <img width="607" alt="vidu-email-preview" src="https://github.com/viduhq/api-docs/assets/2526/cfab42e1-0f82-45f4-aa59-04447db56075">
