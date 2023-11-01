@@ -139,7 +139,7 @@ For example, the following dynamic HTML allows you to embed a personalized video
 ```html
 <p>
   <a href="https://watch.vidu.io/watch/{{vidu_introduction_video_view_key}}" rel="noopener noreferrer" target="_blank">
-    <img src="https://watch.vidu.io/i/{{vidu_introduction_video_view_key}}.thumbnail.gif" alt="Watch the video I made for you" style="border: 1px solid #aaa;">
+    <img src="https://watch.vidu.io/i/{{vidu_introduction_video_view_key}}.thumbnail.gif" alt="Watch the video I made for you" width="496" height="279" style="border: 1px solid #aaa;">
   </a>
   <br>
   <a href="https://watch.vidu.io/watch/{{vidu_introduction_video_view_key}}" rel="noopener noreferrer" target="_blank">Watch the video I made for you</a>
