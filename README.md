@@ -148,16 +148,3 @@ For example, the following dynamic HTML allows you to embed a personalized video
 ```
 
 <img width="607" alt="vidu-email-preview" src="https://github.com/viduhq/api-docs/assets/2526/cfab42e1-0f82-45f4-aa59-04447db56075">
-
-
-## Webhooks
-
-Webhooks are coming soon and will allow you to subscribe to Vidu events such as:
-
- * `job.created`
- * `job.completed`
- * `video.opened`
- * `video.viewed`
- * `video.cta_clicked`
-
-
