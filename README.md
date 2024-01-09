@@ -100,19 +100,16 @@ Retreives a personalized [video](https://www.vidu.io/video) / [meme](https://www
       "poster": { // a 2 second looping video that auto-plays on the video watch page
         "extension": ".mp4",
         "file_size": 202186,
-        "type": "image",
         "url": "https://files.vidu.io/2023/9/21/uwgqrasxh/bzMbzRxFUoSd/poster.mp4"
       },
       "thumbnail": { // a short looping GIF that's displayed in email and LinkedIn chats
         "extension": ".gif",
         "file_size": 220768,
-        "type": "image",
         "url": "https://files.vidu.io/2023/9/21/uwgqrasxh/bzMbzRxFUoSd/thumbnail.gif"
       },
       "video": { // the full video that plays on the video watch page
         "extension": ".mp4",
         "file_size": 1155204,
-        "type": "image",
         "url": "https://files.vidu.io/2023/9/21/uwgqrasxh/bzMbzRxFUoSd/video.mp4"
       }
     }
