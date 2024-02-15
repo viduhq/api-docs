@@ -68,7 +68,8 @@ Enqueues a personalized [video](https://www.vidu.io/video) / [meme](https://www.
   },
   "outputs": null,
   "view_key": "bzMbzRxFUoSd",
-  "view_url": "https://watch.vidu.io/watch/bzMbzRxFUoSd", // the video can be watched here. append `?analytics=false` to disable open/view analytics
+  "view_url": "https://videos.yourdomain.com/watch/bzMbzRxFUoSd", // the video can be watched here. append `?analytics=false` to disable open/view analytics
+  "view_html": "<a href='https://videos.yourdomain.com/watch/bzMbzRxFUoSd' rel='noopener noreferrer' target='_blank'><img src='https://videos.yourdomain.com/i/bzMbzRxFUoSd.thumbnail.gif' width='496' height='279' alt='Watch the video I made for you' style='border: 1px solid #aaa;'></a><br><a href='https://videos.yourdomain.com/watch/bzMbzRxFUoSd' rel='noopener noreferrer' target='_blank'>Watch the video I made for you</a>", // html that can be used in an email.
   "project": {
     "id": 26896,
     "name": "REST API Sample Video Recording",
@@ -116,6 +117,7 @@ Retreives a personalized [video](https://www.vidu.io/video) / [meme](https://www
   },
   "view_key": "bzMbzRxFUoSd",
   "view_url": "https://watch.vidu.io/watch/bzMbzRxFUoSd", // the video can be watched here. append `?analytics=false` to disable open/view analytics
+  "view_html": "<a href='https://videos.yourdomain.com/watch/bzMbzRxFUoSd' rel='noopener noreferrer' target='_blank'><img src='https://videos.yourdomain.com/i/bzMbzRxFUoSd.thumbnail.gif' width='496' height='279' alt='Watch the video I made for you' style='border: 1px solid #aaa;'></a><br><a href='https://videos.yourdomain.com/watch/bzMbzRxFUoSd' rel='noopener noreferrer' target='_blank'>Watch the video I made for you</a>", // html that can be used in an email.
   "project": {
     "id": 26896,
     "name": "REST API Sample Video Recording",
@@ -127,21 +129,8 @@ Retreives a personalized [video](https://www.vidu.io/video) / [meme](https://www
 }
 ```
 
-##### Using `job.view_key` in an email
+##### Using in an email
 
-The `job.view_key` allows you to dynamically construct URLs to relevant personalized assets generated in a job.
-
-For example, the following dynamic HTML allows you to embed a personalized video in an email with a `view_key` value (assuming that it's stored in a custom variable called `vidu_introduction_video_view_key` in your outreach tool / CRM in this case):
-
-```html
-<p>
-  <a href="https://watch.vidu.io/watch/{{vidu_introduction_video_view_key}}" rel="noopener noreferrer" target="_blank">
-    <img src="https://watch.vidu.io/i/{{vidu_introduction_video_view_key}}.thumbnail.gif" alt="Watch the video I made for you" width="496" height="279" style="border: 1px solid #aaa;">
-  </a>
-  <br>
-  <a href="https://watch.vidu.io/watch/{{vidu_introduction_video_view_key}}" rel="noopener noreferrer" target="_blank">Watch the video I made for you</a>
-</p>
-<br>
-```
+The `job.view_html` allows you to include the personalized asset in an email. If you'd like to host the video on your own domain, you can [setup a custom domain](https://intercom.help/viduhq/en/articles/8827055-adding-a-custom-domain).
 
 <img width="607" alt="vidu-email-preview" src="https://github.com/viduhq/api-docs/assets/2526/cfab42e1-0f82-45f4-aa59-04447db56075">
