@@ -2,9 +2,9 @@
 
 ### Introduction
 
-[Vidu](https://www.vidu.io/) allows sales teams to use personalized [videos](https://www.vidu.io/video) / [meme](https://www.vidu.io/memes) / [personal gif](https://www.vidu.io/personal-gifs) in their sales outreach.
+[Vidu](https://www.vidu.io/) allows sales teams to use personalized [videos](https://www.vidu.io/video) / [memes](https://www.vidu.io/memes) / [personal gifs](https://www.vidu.io/personal-gifs) in their sales outreach.
 
-This REST API allows you to automatically generate personalized [videos](https://www.vidu.io/video) / [meme](https://www.vidu.io/memes) / [personal gif](https://www.vidu.io/personal-gifs). You can also use our Zapier and Make integrations, both of which use this API.
+This REST API allows you to automatically generate personalized [videos](https://www.vidu.io/video) / [memes](https://www.vidu.io/memes) / [personal gifs](https://www.vidu.io/personal-gifs). You can also use our Zapier and Make integrations, both of which use this API.
 
 ### Authentication
 
