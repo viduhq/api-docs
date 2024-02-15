@@ -68,8 +68,6 @@ Enqueues a personalized [video](https://www.vidu.io/video) / [meme](https://www.
   },
   "outputs": null,
   "view_key": "bzMbzRxFUoSd",
-  "view_url": "https://videos.yourdomain.com/watch/bzMbzRxFUoSd", // the video can be watched here. append `?analytics=false` to disable open/view analytics
-  "view_html": "<a href='https://videos.yourdomain.com/watch/bzMbzRxFUoSd' rel='noopener noreferrer' target='_blank'><img src='https://videos.yourdomain.com/i/bzMbzRxFUoSd.thumbnail.gif' width='496' height='279' alt='Watch the video I made for you' style='border: 1px solid #aaa;'></a><br><a href='https://videos.yourdomain.com/watch/bzMbzRxFUoSd' rel='noopener noreferrer' target='_blank'>Watch the video I made for you</a>", // html that can be used in an email.
   "project": {
     "id": 26896,
     "name": "REST API Sample Video Recording",
@@ -80,6 +78,8 @@ Enqueues a personalized [video](https://www.vidu.io/video) / [meme](https://www.
   "completed_at": null,
 }
 ```
+
+Jobs are usually proccessed within 60 seconds of creation. You can check the progress of a job with the the following endpoint:
 
 #### `GET https://www.vidu.io/api/v1/jobs/[id]`
 
