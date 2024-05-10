@@ -52,6 +52,19 @@ curl -X GET "https://www.vidu.io/api/v1/me" -H "Authorization: Bearer {token}"
 
 Enqueues a personalized [video](https://www.vidu.io/video) / [meme](https://www.vidu.io/memes) / [personal gif](https://www.vidu.io/personal-gifs) job.  
 
+```bash
+curl -X POST "https://www.vidu.io/api/v1/jobs" \
+-H "Content-Type: application/json" \
+-H "Authorization: Bearer {token}" \
+-d '{
+  "project_id": 26896,
+  "inputs": {
+    "website_1_url": "www.linkedin.com/in/gavinjoyce",
+    "website_2_url": "www.vidu.io"
+  }
+}'
+```
+
 ```javascript
 // POST https://www.vidu.io/api/v1/jobs
 
@@ -92,6 +105,10 @@ Jobs are usually proccessed within 60 seconds of creation. You can check the pro
 #### `GET https://www.vidu.io/api/v1/jobs/[id]`
 
 Retreives a personalized [video](https://www.vidu.io/video) / [meme](https://www.vidu.io/memes) / [personal gif](https://www.vidu.io/personal-gifs) job.  
+
+```bash
+curl -X GET "https://www.vidu.io/api/v1/jobs/7654321" -H "Authorization: Bearer {token}"
+```
 
 ```javascript
 // GET https://www.vidu.io/api/v1/jobs/7654321
