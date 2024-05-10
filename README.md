@@ -22,6 +22,10 @@ Include an `Authorization` header in your requests as follows:
 
 Returns information about the `User` and `Workspace` associated with the API Key.
 
+```bash
+curl -X GET "https://www.vidu.io/api/v1/me" -H "Authorization: Bearer {token}"
+```
+
 ```javascript
 // RESPONSE
 {
@@ -39,6 +43,8 @@ Returns information about the `User` and `Workspace` associated with the API Key
   }
 }
 ```
+
+
 
 ### Jobs
 
